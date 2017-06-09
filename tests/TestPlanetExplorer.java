@@ -24,7 +24,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_gridInitiation(){
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		
+		assertEquals("(3x3)", pe.getGrid() );
 	}
 	
 	

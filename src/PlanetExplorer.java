@@ -4,7 +4,7 @@
 // Student ID:
 
 public class PlanetExplorer {
-	int x,y,eX, eY;
+	int x,y,eX, eY, iStr;
 	String sides, obstacles;
 	String side[] = {"N", "E", "S", "W"};
 	
@@ -21,6 +21,7 @@ public class PlanetExplorer {
 		eX = 0;
 		eY = 0;
 		sides = side[0];
+		iStr = 0;
 	}
 	
 	public String executeCommand(String command){
@@ -40,7 +41,7 @@ public class PlanetExplorer {
 
 	public String getCoordinates() {
 		// TODO Auto-generated method stub
-		return "("+this.eX+","+this.eY+","+this.side+")"+this.obstacles;
+		return "("+this.eX+","+this.eY+","+side[iStr]+")"+this.obstacles;
 	}
 	
 }

@@ -109,7 +109,7 @@ public class PlanetExplorer {
 		}
 		return true;
 	}
-	public void check(String obstacles){
+	public void check(){
 		if(eX == x || eY == y){
 			eX = 0;
 			eY = 0;

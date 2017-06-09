@@ -14,3 +14,5 @@ RefactoringAction 1497002090947 TestPlanetExplorer.java RENAME test_=>void test_
 RefactoringAction 1497002093467 TestPlanetExplorer.java RENAME test_start=>void test_startPosition FIELD
 RefactoringAction 1497002095484 TestPlanetExplorer.java RENAME test_startPosition=>void test_startPosition() METHOD
 EditAction 1497002175499 TestPlanetExplorer.java 456 2 5 2
+RefactoringAction 1497002211301 PlanetExplorer.java ADD Object getCoordinates() METHOD
+EditAction 1497002222637 TestPlanetExplorer.java 473 2 5 2

@@ -28,7 +28,9 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_checkInitialcommandF() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
-		assertEquals("(0,1,N)",pe.executeCommand("f"));
+		String act = pe.executeCommand("f");
+		System.out.println(act);
+		assertEquals("(0,1,N)",act);
 	}
 	/*@Test
 	public void test_exceptionCommand() throws PlanetExplorerException{

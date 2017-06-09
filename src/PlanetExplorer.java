@@ -74,6 +74,11 @@ public class PlanetExplorer {
 				return getCoordinates();
 				
 			}
+			else if(c[i] == 'l'){
+				iStr -= 1;
+				check();
+				return getCoordinates();
+			}
 		}
 		
 		return null;
@@ -107,6 +112,9 @@ public class PlanetExplorer {
 		}
 		else if(eY == -1){
 			eY = y-1;
+		}
+		else if(iStr == -1){
+			iStr = 3;
 		}
 	}
 	

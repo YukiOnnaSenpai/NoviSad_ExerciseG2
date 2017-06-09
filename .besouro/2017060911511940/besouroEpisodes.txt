@@ -77,3 +77,6 @@
 1497004349250 test-addition 2 1326 true
 1497004730040 test-first 3 356 true
 1497004730041 test-first 3 356 true
+1497005057784 test-addition 2 314 true
+1497005057785 test-addition 2 314 true
+1497005057786 test-addition 1 314 true

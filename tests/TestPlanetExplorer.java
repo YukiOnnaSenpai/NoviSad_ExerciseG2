@@ -14,4 +14,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
 		assertNotNull(pe);
 	}
+	
+	@Test
+	public void test_startPosition(){
+		PlanetExplorer pe = new PlanetExplorer(3,3,"");
+		String expected = "(0,0,N)";
+		assertEquals(expected, pe);
+	}
 }

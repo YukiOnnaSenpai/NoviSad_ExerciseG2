@@ -6,3 +6,11 @@ RefactoringAction 1497002011022 TestPlanetExplorer.java RENAME test_cons=>void t
 RefactoringAction 1497002012040 TestPlanetExplorer.java RENAME test_constructorTes=>void test_constructorTest FIELD
 RefactoringAction 1497002013061 TestPlanetExplorer.java RENAME test_constructorTest=>void test_constructorTest() METHOD
 EditAction 1497002066626 TestPlanetExplorer.java 298 1 2 1
+UnitTestCaseAction 1497002072623 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497002072624 TestPlanetExplorer.java OK
+RefactoringAction 1497002087912 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497002088928 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497002090947 TestPlanetExplorer.java RENAME test_=>void test_start FIELD
+RefactoringAction 1497002093467 TestPlanetExplorer.java RENAME test_start=>void test_startPosition FIELD
+RefactoringAction 1497002095484 TestPlanetExplorer.java RENAME test_startPosition=>void test_startPosition() METHOD
+EditAction 1497002175499 TestPlanetExplorer.java 456 2 5 2

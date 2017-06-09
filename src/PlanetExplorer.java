@@ -54,6 +54,7 @@ public class PlanetExplorer {
 				else if(iStr == 3){
 					eX -= 1;
 				}
+				check();
 				return getCoordinates();
 			}
 			else if(c[i] == 'b'){
@@ -69,6 +70,7 @@ public class PlanetExplorer {
 				else if(iStr == 3){
 					eX += 1;
 				}
+				check();
 				return getCoordinates();
 				
 			}

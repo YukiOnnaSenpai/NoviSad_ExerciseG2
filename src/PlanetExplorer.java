@@ -109,7 +109,7 @@ public class PlanetExplorer {
 		}
 		return true;
 	}
-	public void check(){
+	public void check(String obstacles){
 		if(eX == x || eY == y){
 			eX = 0;
 			eY = 0;
@@ -123,6 +123,13 @@ public class PlanetExplorer {
 		else if(iStr == -1){
 			iStr = 3;
 		}
+		/*for(int i = 0; i < obstacles.length(); i++){
+			if(o[i] == ge)
+		}*/
+		
 	}
-	
+	public String checkinObst(String obstacles){
+		String[] o = obstacles.split(")");
+		return "o[]";
+	}
 }

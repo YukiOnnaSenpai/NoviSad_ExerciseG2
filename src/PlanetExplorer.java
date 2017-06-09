@@ -43,16 +43,16 @@ public class PlanetExplorer {
 		for(int i = 0; i<command.length();i++){
 			if(c[i] == 'f'){
 				if(iStr == 0){
-					eY += 1;
+					eY++;
 				}
 				else if(iStr == 1){
-					eX += 1;
+					eX++;
 				}
 				else if(iStr == 2){
-					eY -= 1;
+					eY--;
 				}
 				else if(iStr == 3){
-					eX -= 1;
+					eX--;
 				}
 				check();
 				return getCoordinates();

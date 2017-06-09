@@ -55,6 +55,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
 		assertEquals("(0,2,N)", pe.executeCommand("ff"));
 	}
+	@Test
+	public void test_NFS2() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3,3,"");
+		assertEquals("(1,2,E)", pe.executeCommand("ffrf"));
+	}
 	
 	/*@Test
 	public void test_exceptionCommand() throws PlanetExplorerException{

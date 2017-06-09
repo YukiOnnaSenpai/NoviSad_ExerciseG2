@@ -186,3 +186,8 @@ UnitTestSessionAction 1497005513067 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1497005537244 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497005537245 TestPlanetExplorer.java FAIL
 EditAction 1497005630358 TestPlanetExplorer.java 2081 10 22 10
+UnitTestCaseAction 1497005633225 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005633226 TestPlanetExplorer.java FAIL
+RefactoringAction 1497005688147 TestPlanetExplorer.java ADD void test_exceptionCommand() METHOD
+RefactoringAction 1497005742319 TestPlanetExplorer.java REMOVE test_exceptionCommand() METHOD
+EditAction 1497005798874 TestPlanetExplorer.java 2097 10 22 10

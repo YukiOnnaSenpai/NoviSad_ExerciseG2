@@ -19,7 +19,8 @@ public class TestPlanetExplorer {
 	public void test_startPosition(){
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
 		String expected = "(0,0,N)";
-		assertEquals(expected, pe);
+		assertEquals(expected, pe.getCoordinates());
 	}
+	
 	
 }

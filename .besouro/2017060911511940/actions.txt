@@ -31,3 +31,7 @@ UnitTestSessionAction 1497002435080 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1497002489455 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497002489456 TestPlanetExplorer.java FAIL
 EditAction 1497002514564 TestPlanetExplorer.java 458 2 5 2
+UnitTestCaseAction 1497002516969 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002516970 TestPlanetExplorer.java FAIL
+RefactoringAction 1497002594936 PlanetExplorer.java ADD String obstacles FIELD
+EditAction 1497002608796 TestPlanetExplorer.java 477 2 5 2

@@ -5,7 +5,7 @@
 
 public class PlanetExplorer {
 	int x,y,eX, eY;
-	String sides;
+	String sides, obstacles;
 	String side[] = {"N", "E", "S", "W"};
 	
 	public PlanetExplorer(int x, int y, String obstacles){
@@ -40,6 +40,6 @@ public class PlanetExplorer {
 
 	public String getCoordinates() {
 		// TODO Auto-generated method stub
-		return "("+eX+","+eY+","+side+")";
+		return "("+this.eX+","+this.eY+","+this.side+")"+this.obstacles;
 	}
 }

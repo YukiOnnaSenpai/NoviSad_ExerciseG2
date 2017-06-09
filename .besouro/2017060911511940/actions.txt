@@ -26,3 +26,8 @@ RefactoringAction 1497002270120 PlanetExplorer.java ADD String si FIELD
 RefactoringAction 1497002271134 PlanetExplorer.java RENAME si=>String side FIELD
 CompilationAction 1497002420856 TestPlanetExplorer.java
 EditAction 1497002428012 PlanetExplorer.java 1430 3 2 0
+UnitTestCaseAction 1497002435079 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002435080 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497002489455 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002489456 TestPlanetExplorer.java FAIL
+EditAction 1497002514564 TestPlanetExplorer.java 458 2 5 2

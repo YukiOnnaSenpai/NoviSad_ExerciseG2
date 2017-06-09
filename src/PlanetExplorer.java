@@ -16,6 +16,11 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		this.x = x;
+		this.y = y;
+		eX = 0;
+		eY = 0;
+		sides = side[0];
 	}
 	
 	public String executeCommand(String command){

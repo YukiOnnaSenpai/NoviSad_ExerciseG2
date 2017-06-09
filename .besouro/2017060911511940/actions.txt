@@ -209,3 +209,13 @@ UnitTestSessionAction 1497006049514 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1497006096874 TestPlanetExplorer.java OK
 UnitTestSessionAction 1497006096875 TestPlanetExplorer.java OK
 EditAction 1497006244179 TestPlanetExplorer.java 2475 11 32 11
+RefactoringAction 1497006269883 PlanetExplorer.java ADD void chec FIELD
+RefactoringAction 1497006271390 PlanetExplorer.java RENAME chec=>void checkin FIELD
+RefactoringAction 1497006272901 PlanetExplorer.java RENAME checkin=>void checkinC FIELD
+RefactoringAction 1497006274914 PlanetExplorer.java RENAME checkinC=>void checkinObst FIELD
+RefactoringAction 1497006275924 PlanetExplorer.java RENAME checkinObst=>void checkinObst() METHOD
+RefactoringAction 1497006283935 PlanetExplorer.java RENAME checkinObst()=>void checkinObst(String) METHOD
+RefactoringAction 1497006641767 PlanetExplorer.java RENAME check()=>void check(String) METHOD
+RefactoringAction 1497006670852 PlanetExplorer.java REMOVE checkinObst(String) METHOD
+RefactoringAction 1497006672362 PlanetExplorer.java ADD String checkinObst(String) METHOD
+EditAction 1497006674492 TestPlanetExplorer.java 2477 11 32 11

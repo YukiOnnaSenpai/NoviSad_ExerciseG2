@@ -68,7 +68,7 @@ public class TestPlanetExplorer {
 	}
 	@Test 
 	public void test_obstacles1() throws PlanetExplorerException {
-		PlanetExplorer pe = new PlanetExplorer(3,3,"0,2");
+		PlanetExplorer pe = new PlanetExplorer(3,3,"(0,2)");
 		pe.executeCommand("f");
 		pe.executeCommand("f");
 		pe.executeCommand("r");

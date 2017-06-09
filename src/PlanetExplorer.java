@@ -36,12 +36,12 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		/*if(checkInput(command) == false){
+			throw new PlanetExplorerException();
+		}*/
 		char[] c = command.toCharArray();
 		for(int i = 0; i<command.length();i++){
-			if(c[i] != 'f' || c[i] != 'b' || c[i] != 'l' || c[i] != 'r'){
-				throw new PlanetExplorerException();
-			}
-			else if(c[i] == 'f'){
+			if(c[i] == 'f'){
 				if(iStr == 0){
 					eY++;
 				}
@@ -68,6 +68,15 @@ public class PlanetExplorer {
 	public String getGrid() {
 		// TODO Auto-generated method stub
 		return "("+x+"x"+y+")";
+	}
+	public boolean checkInput(String command){
+		char[] c = command.toCharArray();
+		for(int i = 0; i < command.length() ; i++){
+			if(c[i] != 'f' || c[i] != 'b' || c[i] != 'l' || c[i] != 'r'){
+				return false;
+			}
+		}
+		return true;
 	}
 	
 }

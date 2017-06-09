@@ -93,3 +93,16 @@ RefactoringAction 1497003901640 PlanetExplorer.java RENAME invalidInput=>void in
 RefactoringAction 1497003933301 PlanetExplorer.java RENAME invalidInput()=>void checkInput() METHOD
 RefactoringAction 1497003955334 PlanetExplorer.java RENAME checkInput()=>void checkInput(String) METHOD
 EditAction 1497004024165 TestPlanetExplorer.java 970 4 9 4
+UnitTestCaseAction 1497004025723 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004025725 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497004176176 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004176176 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004189936 PlanetExplorer.java REMOVE getGrid() METHOD
+RefactoringAction 1497004189937 PlanetExplorer.java REMOVE checkInput(String) METHOD
+RefactoringAction 1497004189937 PlanetExplorer.java REMOVE getCoordinates() METHOD
+RefactoringAction 1497004191449 PlanetExplorer.java ADD String getCoordinates() METHOD
+RefactoringAction 1497004191450 PlanetExplorer.java ADD String getGrid() METHOD
+RefactoringAction 1497004191451 PlanetExplorer.java ADD boolean checkInput(String) METHOD
+UnitTestCaseAction 1497004195651 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004195651 TestPlanetExplorer.java FAIL
+EditAction 1497004242352 TestPlanetExplorer.java 950 4 8 4

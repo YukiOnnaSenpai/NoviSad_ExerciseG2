@@ -165,3 +165,10 @@ EditAction 1497005204634 TestPlanetExplorer.java 1691 8 16 8
 UnitTestCaseAction 1497005205051 TestPlanetExplorer.java OK
 UnitTestSessionAction 1497005205051 TestPlanetExplorer.java OK
 EditAction 1497005255525 PlanetExplorer.java 2974 6 16 0
+RefactoringAction 1497005265557 TestPlanetExplorer.java ADD void test_boundariescommandR()/2 METHOD
+RefactoringAction 1497005273573 TestPlanetExplorer.java RENAME test_boundariescommandR()/2=>void test_tes() METHOD
+RefactoringAction 1497005275084 TestPlanetExplorer.java RENAME test_tes()=>void test_test() METHOD
+RefactoringAction 1497005276594 TestPlanetExplorer.java RENAME test_test()=>void test_() METHOD
+RefactoringAction 1497005285620 TestPlanetExplorer.java RENAME test_()=>void test_NFS() METHOD
+RefactoringAction 1497005287132 TestPlanetExplorer.java RENAME test_NFS()=>void test_NFS1() METHOD
+EditAction 1497005341600 TestPlanetExplorer.java 1861 9 18 9

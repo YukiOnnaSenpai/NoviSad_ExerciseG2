@@ -95,5 +95,17 @@ public class PlanetExplorer {
 		}
 		return true;
 	}
+	public void check(){
+		if(eX == x || eY == y){
+			eX = 0;
+			eY = 0;
+		}
+		else if(eX == -1){
+			eX = x-1;
+		}
+		else if(eY == -1){
+			eY = y-1;
+		}
+	}
 	
 }

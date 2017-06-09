@@ -127,3 +127,7 @@ UnitTestCaseAction 1497004455732 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004455733 TestPlanetExplorer.java FAIL
 CompilationAction 1497004501039 PlanetExplorer.java
 EditAction 1497004618630 TestPlanetExplorer.java 1132 5 10 5
+UnitTestCaseAction 1497004621101 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004621102 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004634482 PlanetExplorer.java ADD void check() METHOD
+EditAction 1497004701013 PlanetExplorer.java 2729 6 16 0

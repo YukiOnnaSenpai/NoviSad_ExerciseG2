@@ -71,3 +71,10 @@ RefactoringAction 1497003026795 TestPlanetExplorer.java RENAME test_check=>void 
 RefactoringAction 1497003029301 TestPlanetExplorer.java RENAME test_checkInitialcommand=>void test_checkInitialcommandF FIELD
 RefactoringAction 1497003034320 TestPlanetExplorer.java RENAME test_checkInitialcommandF=>void test_checkInitialcommandF() METHOD
 EditAction 1497003161125 TestPlanetExplorer.java 770 4 8 4
+UnitTestCaseAction 1497003161653 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497003161654 TestPlanetExplorer.java FAIL
+RefactoringAction 1497003322335 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1497003324848 TestPlanetExplorer.java RENAME test_=>void test_exception FIELD
+RefactoringAction 1497003328864 TestPlanetExplorer.java RENAME test_exception=>void test_exceptionCommand FIELD
+RefactoringAction 1497003331376 TestPlanetExplorer.java RENAME test_exceptionCommand=>void test_exceptionCommand() METHOD
+EditAction 1497003396411 TestPlanetExplorer.java 950 5 10 5

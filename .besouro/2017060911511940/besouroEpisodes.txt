@@ -40,3 +40,15 @@
 1497002886894 test-first 1 798 true
 1497002886895 test-first 1 798 true
 1497002886896 test-last 1 798 false
+1497002980069 test-addition 1 81 true
+1497002980070 test-addition 2 81 true
+1497002980071 test-addition 2 81 true
+1497002980072 test-addition 2 81 true
+1497002980073 test-addition 1 81 true
+1497002980074 test-addition 2 81 true
+1497002980075 test-addition 2 81 true
+1497002980076 test-addition 2 81 true
+1497002980077 test-addition 1 81 true
+1497002980078 test-addition 2 81 true
+1497002980079 test-addition 2 81 true
+1497002980080 test-addition 2 81 true

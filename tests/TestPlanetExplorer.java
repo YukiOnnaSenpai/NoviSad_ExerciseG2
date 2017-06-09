@@ -25,6 +25,11 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
 		assertEquals("(3x3)", pe.getGrid() );
 	}
+	@Test
+	public void test_checkInitialcommandF() throws PlanetExplorerException{
+		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
+		assertEquals("(0,1,N)",pe.executeCommand("f"));
+	}
 	
 	
 }

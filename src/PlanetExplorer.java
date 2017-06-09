@@ -22,6 +22,7 @@ public class PlanetExplorer {
 		eY = 0;
 		sides = side[0];
 		iStr = 0;
+		this.obstacles = obstacles;
 	}
 	
 	public String executeCommand(String command){

@@ -62,3 +62,12 @@ EditAction 1497002937117 TestPlanetExplorer.java 588 3 6 3
 UnitTestCaseAction 1497002938872 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497002938872 TestPlanetExplorer.java FAIL
 EditAction 1497002953693 TestPlanetExplorer.java 585 3 6 3
+UnitTestCaseAction 1497002956921 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002956922 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497002980068 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497002980069 TestPlanetExplorer.java OK
+RefactoringAction 1497003022782 TestPlanetExplorer.java ADD void test_check FIELD
+RefactoringAction 1497003026795 TestPlanetExplorer.java RENAME test_check=>void test_checkInitialcommand FIELD
+RefactoringAction 1497003029301 TestPlanetExplorer.java RENAME test_checkInitialcommand=>void test_checkInitialcommandF FIELD
+RefactoringAction 1497003034320 TestPlanetExplorer.java RENAME test_checkInitialcommandF=>void test_checkInitialcommandF() METHOD
+EditAction 1497003161125 TestPlanetExplorer.java 770 4 8 4

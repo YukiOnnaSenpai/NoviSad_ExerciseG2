@@ -53,7 +53,9 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_NFS1() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
-		assertEquals("(0,2,N)", pe.executeCommand("ff"));
+		pe.executeCommand("f");
+		pe.executeCommand("f");
+		assertEquals("(0,2,N)", pe.getCoordinates());
 	}
 	@Test
 	public void test_NFS2() throws PlanetExplorerException {

@@ -40,7 +40,7 @@ public class PlanetExplorer {
 			throw new PlanetExplorerException();
 		}*/
 		char[] c = command.toCharArray();
-		for(int i = 0; i<command.length();i++){
+		for(int i = 0; i < command.length() ; i++ ){
 			if(c[i] == 'f'){
 				if(iStr == 0){
 					eY++;
@@ -91,7 +91,7 @@ public class PlanetExplorer {
 
 	public String getCoordinates() {
 		// TODO Auto-generated method stub
-		return "("+this.eX+","+this.eY+","+side[iStr]+")"+this.obstacles;
+		return "("+eX+","+eY+","+side[iStr]+")"+this.obstacles;
 	}
 
 	public String getGrid() {

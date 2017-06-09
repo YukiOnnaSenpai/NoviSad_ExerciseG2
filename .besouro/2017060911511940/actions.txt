@@ -106,3 +106,20 @@ RefactoringAction 1497004191451 PlanetExplorer.java ADD boolean checkInput(Strin
 UnitTestCaseAction 1497004195651 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004195651 TestPlanetExplorer.java FAIL
 EditAction 1497004242352 TestPlanetExplorer.java 950 4 8 4
+UnitTestCaseAction 1497004242848 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004242849 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497004274890 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004274890 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497004308992 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004308993 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497004332886 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004332887 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497004349228 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497004349228 TestPlanetExplorer.java OK
+RefactoringAction 1497004373245 TestPlanetExplorer.java ADD void test FIELD
+RefactoringAction 1497004375253 TestPlanetExplorer.java RENAME test=>void test_ FIELD
+RefactoringAction 1497004380764 TestPlanetExplorer.java RENAME test_=>void test_checkInitial FIELD
+RefactoringAction 1497004384774 TestPlanetExplorer.java RENAME test_checkInitial=>void test_checkInitialCommand FIELD
+RefactoringAction 1497004386787 TestPlanetExplorer.java RENAME test_checkInitialCommand=>void test_checkInitialCommandB FIELD
+RefactoringAction 1497004387797 TestPlanetExplorer.java RENAME test_checkInitialCommandB=>void test_checkInitialCommandB() METHOD
+EditAction 1497004453750 TestPlanetExplorer.java 1132 5 10 5

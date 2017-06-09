@@ -42,18 +42,19 @@ public class PlanetExplorer {
 		char[] c = command.toCharArray();
 		for(int i = 0; i<command.length();i++){
 			if(c[i] == 'f'){
-				if(iStr == 0){
-					eY++;
+				if(sides == side[0]){
+					eY += 1;
 				}
 				else if(iStr == 1){
-					eX++;
+					eX += 1;
 				}
 				else if(iStr == 2){
-					eY--;
+					eY -= 1;
 				}
 				else if(iStr == 3){
-					eX--;
+					eX -= 1;
 				}
+				return getCoordinates();
 			}
 		}
 		

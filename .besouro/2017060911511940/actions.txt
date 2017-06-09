@@ -162,3 +162,6 @@ UnitTestSessionAction 1497005161084 TestPlanetExplorer.java OK
 RefactoringAction 1497005180434 TestPlanetExplorer.java ADD void test_checkInitialcommandR()/2 METHOD
 RefactoringAction 1497005187447 TestPlanetExplorer.java RENAME test_checkInitialcommandR()/2=>void test_boundariescommandR() METHOD
 EditAction 1497005204634 TestPlanetExplorer.java 1691 8 16 8
+UnitTestCaseAction 1497005205051 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497005205051 TestPlanetExplorer.java OK
+EditAction 1497005255525 PlanetExplorer.java 2974 6 16 0

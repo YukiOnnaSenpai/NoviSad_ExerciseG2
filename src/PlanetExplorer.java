@@ -81,6 +81,7 @@ public class PlanetExplorer {
 			}
 			else if(c[i] == 'r'){
 				iStr++;
+				iStr = iStr % 4;
 				return getCoordinates();
 			}
 		}

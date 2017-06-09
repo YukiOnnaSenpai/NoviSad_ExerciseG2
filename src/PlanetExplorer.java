@@ -37,9 +37,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		if(checkInput(command) == false){
+		/*if(checkInput(command) == false){
 			throw new PlanetExplorerException();
-		}
+		}*/
 		char[] c = command.toCharArray();
 		for(int i = 0; i < command.length() ; i++ ){
 			

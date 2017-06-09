@@ -195,3 +195,17 @@ RefactoringAction 1497005820462 TestPlanetExplorer.java ADD void test_obsta FIEL
 RefactoringAction 1497005821971 TestPlanetExplorer.java RENAME test_obsta=>void test_obstacles FIELD
 RefactoringAction 1497005826982 TestPlanetExplorer.java RENAME test_obstacles=>void test_obstacles1 FIELD
 EditAction 1497005946969 TestPlanetExplorer.java 2230 11 23 10
+FileOpenedAction 1497005986345 PlanetExplorerException.java 61 0 0 0
+RefactoringAction 1497006037139 PlanetExplorer.java REMOVE check() METHOD
+RefactoringAction 1497006037140 PlanetExplorer.java REMOVE getGrid() METHOD
+RefactoringAction 1497006037140 PlanetExplorer.java REMOVE checkInput(String) METHOD
+RefactoringAction 1497006037140 PlanetExplorer.java REMOVE getCoordinates() METHOD
+RefactoringAction 1497006040652 PlanetExplorer.java ADD String getCoordinates() METHOD
+RefactoringAction 1497006040652 PlanetExplorer.java ADD String getGrid() METHOD
+RefactoringAction 1497006040653 PlanetExplorer.java ADD boolean checkInput(String) METHOD
+RefactoringAction 1497006040653 PlanetExplorer.java ADD void check() METHOD
+UnitTestCaseAction 1497006049514 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497006049514 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1497006096874 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497006096875 TestPlanetExplorer.java OK
+EditAction 1497006244179 TestPlanetExplorer.java 2475 11 32 11

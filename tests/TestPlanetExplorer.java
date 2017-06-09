@@ -60,14 +60,22 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_NFS2() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
-		assertEquals("(1,2,E)", pe.executeCommand("ffrf"));
+		pe.executeCommand("f");
+		pe.executeCommand("f");
+		pe.executeCommand("r");
+		pe.executeCommand("f");
+		assertEquals("(1,2,E)", pe.getCoordinates());
 	}
-	
 	@Test 
 	public void test_obstacles1() throws PlanetExplorerException {
-		PlanetExplorer pe = new PlanetExplorer(3,3,"(1,1)");
-		
+		PlanetExplorer pe = new PlanetExplorer(3,3,"0,2");
+		pe.executeCommand("f");
+		pe.executeCommand("f");
+		pe.executeCommand("r");
+		pe.executeCommand("f");
+		assertEquals("(1,1,E)", pe.getCoordinates());
 	}
+	
 	/*@Test(expected class)
 	public void test_exceptionCommand() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");

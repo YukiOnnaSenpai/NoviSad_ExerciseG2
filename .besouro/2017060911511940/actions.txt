@@ -191,3 +191,7 @@ UnitTestSessionAction 1497005633226 TestPlanetExplorer.java FAIL
 RefactoringAction 1497005688147 TestPlanetExplorer.java ADD void test_exceptionCommand() METHOD
 RefactoringAction 1497005742319 TestPlanetExplorer.java REMOVE test_exceptionCommand() METHOD
 EditAction 1497005798874 TestPlanetExplorer.java 2097 10 22 10
+RefactoringAction 1497005820462 TestPlanetExplorer.java ADD void test_obsta FIELD
+RefactoringAction 1497005821971 TestPlanetExplorer.java RENAME test_obsta=>void test_obstacles FIELD
+RefactoringAction 1497005826982 TestPlanetExplorer.java RENAME test_obstacles=>void test_obstacles1 FIELD
+EditAction 1497005946969 TestPlanetExplorer.java 2230 11 23 10

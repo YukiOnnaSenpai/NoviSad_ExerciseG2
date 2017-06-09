@@ -43,5 +43,10 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return "("+this.eX+","+this.eY+","+side[iStr]+")"+this.obstacles;
 	}
+
+	public String getGrid() {
+		// TODO Auto-generated method stub
+		return "("+x+"x"+y+")";
+	}
 	
 }

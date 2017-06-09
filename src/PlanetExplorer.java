@@ -42,7 +42,7 @@ public class PlanetExplorer {
 		char[] c = command.toCharArray();
 		for(int i = 0; i<command.length();i++){
 			if(c[i] == 'f'){
-				if(sides == side[0]){
+				if(iStr == 0){
 					eY += 1;
 				}
 				else if(iStr == 1){
@@ -55,6 +55,22 @@ public class PlanetExplorer {
 					eX -= 1;
 				}
 				return getCoordinates();
+			}
+			else if(c[i] == 'b'){
+				if(iStr == 0){
+					eY -= 1;
+				}
+				else if(iStr == 1){
+					eX -= 1;
+				}
+				else if(iStr == 2){
+					eY += 1;
+				}
+				else if(iStr == 3){
+					eX += 1;
+				}
+				return getCoordinates();
+				
 			}
 		}
 		

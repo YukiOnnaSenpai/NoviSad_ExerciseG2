@@ -123,3 +123,7 @@ RefactoringAction 1497004384774 TestPlanetExplorer.java RENAME test_checkInitial
 RefactoringAction 1497004386787 TestPlanetExplorer.java RENAME test_checkInitialCommand=>void test_checkInitialCommandB FIELD
 RefactoringAction 1497004387797 TestPlanetExplorer.java RENAME test_checkInitialCommandB=>void test_checkInitialCommandB() METHOD
 EditAction 1497004453750 TestPlanetExplorer.java 1132 5 10 5
+UnitTestCaseAction 1497004455732 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004455733 TestPlanetExplorer.java FAIL
+CompilationAction 1497004501039 PlanetExplorer.java
+EditAction 1497004618630 TestPlanetExplorer.java 1132 5 10 5

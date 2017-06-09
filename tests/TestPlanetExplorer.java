@@ -17,7 +17,7 @@ public class TestPlanetExplorer {
 	
 	@Test
 	public void test_startPosition(){
-		PlanetExplorer pe = new PlanetExplorer(3,3, null);
+		PlanetExplorer pe = new PlanetExplorer(3,3,"");
 		assertEquals("(0,0,N)", pe.getCoordinates());
 	}
 	@Test

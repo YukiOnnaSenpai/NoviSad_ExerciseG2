@@ -44,3 +44,4 @@ RefactoringAction 1497002647452 TestPlanetExplorer.java RENAME test_grid=>void t
 RefactoringAction 1497002648960 TestPlanetExplorer.java RENAME test_gridinitiation=>void test_gridInitiation FIELD
 RefactoringAction 1497002652494 TestPlanetExplorer.java RENAME test_gridInitiation=>void test_gridInitiation() METHOD
 EditAction 1497002692636 PlanetExplorer.java 1540 3 7 0
+EditAction 1497002695594 TestPlanetExplorer.java 582 2 3 1

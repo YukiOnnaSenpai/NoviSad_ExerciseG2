@@ -4,6 +4,10 @@
 // Student ID:
 
 public class PlanetExplorer {
+	int x,y,eX, eY;
+	String sides;
+	String side[] = {"N", "E", "S", "W"};
+	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -27,5 +31,10 @@ public class PlanetExplorer {
 		 */
 		
 		return null;
+	}
+
+	public String getCoordinates() {
+		// TODO Auto-generated method stub
+		return "("+eX+","+eY+","+side+")";
 	}
 }

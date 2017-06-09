@@ -16,3 +16,13 @@ RefactoringAction 1497002095484 TestPlanetExplorer.java RENAME test_startPositio
 EditAction 1497002175499 TestPlanetExplorer.java 456 2 5 2
 RefactoringAction 1497002211301 PlanetExplorer.java ADD Object getCoordinates() METHOD
 EditAction 1497002222637 TestPlanetExplorer.java 473 2 5 2
+CompilationAction 1497002222838 TestPlanetExplorer.java
+RefactoringAction 1497002245939 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1497002246956 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1497002247969 PlanetExplorer.java ADD int e FIELD
+RefactoringAction 1497002250990 PlanetExplorer.java RENAME e=>int eX FIELD
+RefactoringAction 1497002259555 PlanetExplorer.java ADD String sides FIELD
+RefactoringAction 1497002270120 PlanetExplorer.java ADD String si FIELD
+RefactoringAction 1497002271134 PlanetExplorer.java RENAME si=>String side FIELD
+CompilationAction 1497002420856 TestPlanetExplorer.java
+EditAction 1497002428012 PlanetExplorer.java 1430 3 2 0

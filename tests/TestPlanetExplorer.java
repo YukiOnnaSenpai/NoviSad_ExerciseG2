@@ -21,4 +21,5 @@ public class TestPlanetExplorer {
 		String expected = "(0,0,N)";
 		assertEquals(expected, pe.getCoordinates());
 	}
+	
 }

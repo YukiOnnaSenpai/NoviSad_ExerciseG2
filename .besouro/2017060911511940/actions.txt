@@ -35,3 +35,12 @@ UnitTestCaseAction 1497002516969 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497002516970 TestPlanetExplorer.java FAIL
 RefactoringAction 1497002594936 PlanetExplorer.java ADD String obstacles FIELD
 EditAction 1497002608796 TestPlanetExplorer.java 477 2 5 2
+UnitTestCaseAction 1497002609279 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497002609279 TestPlanetExplorer.java FAIL
+RefactoringAction 1497002625874 TestPlanetExplorer.java REMOVE test_startPosition() METHOD
+RefactoringAction 1497002636915 TestPlanetExplorer.java ADD void test_ FIELD
+RefactoringAction 1497002642928 TestPlanetExplorer.java RENAME test_=>void test_grid FIELD
+RefactoringAction 1497002647452 TestPlanetExplorer.java RENAME test_grid=>void test_gridinitiation FIELD
+RefactoringAction 1497002648960 TestPlanetExplorer.java RENAME test_gridinitiation=>void test_gridInitiation FIELD
+RefactoringAction 1497002652494 TestPlanetExplorer.java RENAME test_gridInitiation=>void test_gridInitiation() METHOD
+EditAction 1497002692636 PlanetExplorer.java 1540 3 7 0

@@ -42,4 +42,5 @@ public class PlanetExplorer {
 		// TODO Auto-generated method stub
 		return "("+this.eX+","+this.eY+","+this.side+")"+this.obstacles;
 	}
+	
 }

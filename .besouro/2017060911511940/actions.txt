@@ -50,3 +50,9 @@ EditAction 1497002836357 TestPlanetExplorer.java 619 2 4 2
 CompilationAction 1497002836542 TestPlanetExplorer.java
 RefactoringAction 1497002840746 PlanetExplorer.java ADD Object getGrid() METHOD
 EditAction 1497002882904 PlanetExplorer.java 1653 4 9 0
+UnitTestCaseAction 1497002886856 TestPlanetExplorer.java OK
+UnitTestSessionAction 1497002886856 TestPlanetExplorer.java OK
+RefactoringAction 1497002899036 TestPlanetExplorer.java REMOVE test_gridInitiation() METHOD
+RefactoringAction 1497002900543 TestPlanetExplorer.java ADD void test_startPosition() METHOD
+RefactoringAction 1497002900544 TestPlanetExplorer.java ADD void test_gridInitiation() METHOD
+EditAction 1497002913767 TestPlanetExplorer.java 585 3 6 3

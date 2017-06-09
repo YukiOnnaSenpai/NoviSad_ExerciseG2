@@ -66,6 +66,7 @@ public class TestPlanetExplorer {
 		pe.executeCommand("f");
 		assertEquals("(1,2,E)", pe.getCoordinates());
 	}
+	
 	@Test 
 	public void test_obstacles1() throws PlanetExplorerException {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"(0,2)");
@@ -75,6 +76,7 @@ public class TestPlanetExplorer {
 		pe.executeCommand("f");
 		assertEquals("(1,1,E)", pe.getCoordinates());
 	}
+	
 	
 	/*@Test(expected class)
 	public void test_exceptionCommand() throws PlanetExplorerException{

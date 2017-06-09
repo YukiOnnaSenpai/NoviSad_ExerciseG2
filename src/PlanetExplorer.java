@@ -79,6 +79,10 @@ public class PlanetExplorer {
 				check();
 				return getCoordinates();
 			}
+			else if(c[i] == 'r'){
+				iStr++;
+				return getCoordinates();
+			}
 		}
 		
 		return null;

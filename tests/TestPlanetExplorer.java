@@ -45,6 +45,12 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(3,3,"");
 		assertEquals("(0,0,E)", pe.executeCommand("r"));
 	}
+	@Test
+	public void test_boundariescommandR() throws PlanetExplorerException {
+		PlanetExplorer pe = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,E)", pe.executeCommand("rrrr"));
+	}
+	
 	/*@Test
 	public void test_exceptionCommand() throws PlanetExplorerException{
 		PlanetExplorer pe = new PlanetExplorer(3, 3, "");
